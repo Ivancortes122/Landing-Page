@@ -1,0 +1,172 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+p {
+    font-size: 18px;
+    color: grey;
+}
+
+.header {
+    height: 72px;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+
+    padding: 0 24px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    margin-bottom: 16px;
+}
+
+a { 
+    color:#F9FAF8;
+    text-decoration: none;
+}
+
+.buttons {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 25px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.top {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.content-left {
+    color: #F9FAF8;
+    margin: 8px 24px;
+
+}
+
+.content-right {
+    margin: 24px 24px;
+
+ 
+}
+
+.img {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+main img {
+    height: 150px;
+    width: 125px;
+    border-radius: 8px;
+}
+
+.cards {
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    max-width: 200px;    
+}
+
+.quotebox{
+    background-color: #E5E7EB;
+}
+.quote {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 100px;
+    gap: 10px;
+}
+.credit {
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 50px;
+    padding: 0;
+
+}
+
+.credit p {
+    color: black;
+}
+
+.footer {
+    background-color: #3882F6;
+    color: white;
+    margin: 64px;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.footer-left{
+    justify-self: center;
+}
+
+.footer-right {
+    align-self: center;
+
+    
+}
+
+.footer .buttons {
+    border-color: white;
+}
+
+.footer p {
+    color: #E5E7EB;
+    font-size: 12px;
+    margin-top: -8px;
+}
